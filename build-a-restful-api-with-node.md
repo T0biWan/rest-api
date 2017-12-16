@@ -201,7 +201,7 @@ mongoose.connect('<your url>'); // remote
 
 ```
 # local db
-C:\Program Files\MongoDB\Server\3.6\binmongod.exe --dbpath C:\Users\Tobias\Dropbox\Code\Web\Node\tutorial\api-with-node-improved-localmongoDB\data\mongodb
+C:\<your oath>\MongoDB\Server\3.6\binmongod.exe --dbpath C:\<your path>\data\mongodb
 
 # remote db
 # ... it depends
