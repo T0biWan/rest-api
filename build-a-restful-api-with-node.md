@@ -1,4 +1,4 @@
-# Node API
+# Build a REST API with Node.js
 
 ## DB
 
@@ -52,12 +52,12 @@ _package.json_ should look something like this
     "type": "git",
     "url": "<your url>"
   },
-  "author": "tobi wan",
+  "author": "<you>",
   "license": "ISC"
 }
 ```
 
-Now add directories to structure our application and
+Now add directories to structure our application and create the neccessary files
 
 ```
 mkdir api
@@ -197,11 +197,11 @@ mongoose.connect('mongodb://localhost/<YourDB>'); // local, you can enter any na
 mongoose.connect('<your url>'); // remote
 ```
 
-## Start the DB and the server
+## Start the database and the server
 
 ```
 # local db
-C:\Program Files\MongoDB\Server\3.6\binmongod.exe --dbpath C:\Users\Tobias\Dropbox\Code\Web\Node\rest-api\data\mongodb
+C:\Program Files\MongoDB\Server\3.6\binmongod.exe --dbpath C:\Users\Tobias\Dropbox\Code\Web\Node\tutorial\api-with-node-improved-localmongoDB\data\mongodb
 
 # remote db
 # ... it depends
